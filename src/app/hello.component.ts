@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'hello',
-  template: `<h1>Hello {{name}}!</h1>`,
-  styles: [`h1 { font-family: Lato; }`]
+  selector: 'pass',
+  template: `
+    <div class="div"></div>
+    <input type="password" class="input" />
+  `,
+  styleUrls: [`./app.component.css`]
 })
-export class HelloComponent  {
-  @Input() name: string;
-}
+export class HelloComponent {}
