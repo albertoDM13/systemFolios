@@ -4,8 +4,9 @@ import { Component, Input } from '@angular/core';
   selector: 'pass',
   template: `
     <div class="div"></div>
-    <input type="password" class="input" />
+    <div class="div pos"><input type="password" class="input" /></div>
+    <div class="div"></div>
   `,
   styleUrls: [`./app.component.css`]
 })
-export class HelloComponent {}
+export class inputComponent {}

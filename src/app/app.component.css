@@ -1,3 +1,8 @@
+my-app {
+  padding: 0px;
+  margin: 0px;
+}
+
 p {
   font-family: Lato;
 }
@@ -9,7 +14,12 @@ p {
 }
 
 .div {
-  height: 100px;
-  width: 150px;
+  height: 20vh;
+  width: 100vw;
   background-color: aqua;
+}
+
+.pos {
+  height: 60vh;
+  background-color: blueviolet;
 }
