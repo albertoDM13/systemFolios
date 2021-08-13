@@ -3,31 +3,21 @@ my-app {
   margin: 0px;
 }
 
-p {
-  font-family: Lato;
-}
+/*
 
+  Estilos para DIV
+
+*/
 .ltr {
   background-color: ;
   width: 20vw;
   height: 50vh;
 }
-
-.input {
-  height: 25px;
-  width: 290px;
-  outline: none;
-  align-content: center;
-  display: block;
-  margin: 0 auto;
-}
-
 .div {
   height: 20vh;
   width: 100vw;
   background-color: ;
 }
-
 .pos {
   height: 55vh;
   width: 66vw;
@@ -35,7 +25,6 @@ p {
   box-shadow: 0px 5px rgba(104, 207, 84, 0.616);
   border-radius: 30px;
 }
-
 .mod {
   background-color: ;
   height: 55vh;
@@ -43,30 +32,54 @@ p {
   display: inline-flex;
 }
 
-.button {
-  margin-top: ;
+/*
+
+ Estilos Button
+
+*/
+.buttonLogin {
   height: 10%;
   width: 75%;
-  border-radius: 20px;
-  background-color: rgb(253, 253, 253);
+  border-radius: 10px;
   font-size: 20px;
-  position: relative;
-  left: 12%;
   display: block;
 }
-
+.color {
+  background-color: rgb(211, 241, 211);
+  border: 0;
+}
+.color:hover {
+  background-color: rgb(133, 216, 216);
+}
+.position {
+  margin: 0 auto;
+}
 .can {
   background-color: brown;
   margin-top: 5px;
 }
 
+/*
+
+ Estilos Input
+
+*/
+.inputD {
+  height: 10%;
+  width: 290px;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(240, 248, 255, 0.932);
+  border: 0;
+  font-size: 15px;
+}
 .iconoInput {
   color: #e8e8e8;
   font-size: 15px;
   left: 25px;
   padding-top: 10px;
 }
-
 .inputPadding {
   padding-left: 40px;
 }
