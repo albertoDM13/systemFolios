@@ -19,6 +19,7 @@ p {
   outline: none;
   align-content: center;
   display: block;
+  margin: 0 auto;
 }
 
 .div {
@@ -57,4 +58,15 @@ p {
 .can {
   background-color: brown;
   margin-top: 5px;
+}
+
+.iconoInput {
+  color: #e8e8e8;
+  font-size: 15px;
+  left: 25px;
+  padding-top: 10px;
+}
+
+.inputPadding {
+  padding-left: 40px;
 }
