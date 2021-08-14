@@ -51,10 +51,12 @@ my-app {
   border: 0;
 }
 .color:hover {
-  background-color: rgb(133, 216, 216);
+  background-color: rgba(194, 245, 194, 0.815);
 }
 .position {
   margin: 0 auto;
+  position: relative;
+  top: 290px;
 }
 .can {
   background-color: brown;
