@@ -74,6 +74,9 @@ my-app {
   border: 0;
   font-size: 15px;
 }
+.inputC {
+  background-color: rgb(255, 255, 255);
+}
 .iconoInput {
   color: #e8e8e8;
   font-size: 15px;
