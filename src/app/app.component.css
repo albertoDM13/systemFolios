@@ -16,12 +16,11 @@ my-app {
 .div {
   height: 20vh;
   width: 100vw;
-  background-color: ;
 }
 .pos {
   height: 55vh;
   width: 66vw;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   box-shadow: 0px 5px rgba(149, 168, 145, 0.616);
   border-radius: 30px;
 }
@@ -35,6 +34,9 @@ my-app {
   width: 70%;
   height: 2px;
   margin: 0 auto;
+}
+.colorBack {
+  background-color: rgb(161, 233, 147);
 }
 
 /*
