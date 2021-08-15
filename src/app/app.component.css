@@ -3,6 +3,10 @@ my-app {
   margin: 0px;
 }
 
+::placeholder {
+  text-decoration: dotted;
+}
+
 /*
 
   Estilos para DIV
@@ -50,8 +54,6 @@ my-app {
   border-radius: 10px;
   font-size: 20px;
   display: block;
-}
-.buttonDow {
 }
 .color {
   background-color: rgb(211, 241, 211);
