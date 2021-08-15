@@ -26,10 +26,15 @@ my-app {
   border-radius: 30px;
 }
 .mod {
-  background-color: ;
   height: 55vh;
   width: 100vw;
   display: inline-flex;
+}
+.line {
+  background-color: rgba(149, 168, 145, 0.616);
+  width: 70%;
+  height: 2px;
+  margin: 0 auto;
 }
 
 /*
