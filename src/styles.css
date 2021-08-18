@@ -3,5 +3,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  background-color: rgb(161, 233, 147);
+}
+body {
+  background-color: rgb(133, 231, 146);
 }
