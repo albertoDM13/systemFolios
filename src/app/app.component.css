@@ -100,7 +100,10 @@ my-app {
   padding-left: 40px;
 }
 .inputUser {
-  margin-top: ;
+  margin-top: -5%;
+}
+.inputPassword {
+  margin-top: 5%;
 }
 
 /*
@@ -110,16 +113,24 @@ my-app {
 */
 .imgUser {
   height: 100%;
-  width: 100%;
-  position: relative;
   background-color: #e8e8e800;
+  position: relative;
+  left: -30px;
 }
 .imgDIV {
   height: 20%;
   width: 25%;
   background-color: #ffffff;
-  border-radius: 100px;
+  border-radius: 500px;
   position: relative;
   left: 35%;
   top: -14%;
 }
+
+/*
+ *  
+ *
+ *
+ */
+
+@media;
