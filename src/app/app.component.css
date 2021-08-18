@@ -94,10 +94,13 @@ my-app {
   color: #e8e8e8;
   font-size: 15px;
   left: 25px;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 .inputPadding {
   padding-left: 40px;
+}
+.inputUser {
+  margin-top: ;
 }
 
 /*
