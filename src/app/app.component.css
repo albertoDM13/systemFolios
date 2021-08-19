@@ -13,24 +13,26 @@ my-app {
 
 */
 .ltr {
-  background-color: ;
+  background-color: rgba(0, 255, 255, 0.637);
   width: 20vw;
   height: 50vh;
 }
 .div {
   height: 20vh;
   width: 100vw;
+  background-color: rgba(0, 217, 255, 0.315);
 }
 .pos {
-  height: 55vh;
-  width: 66vw;
+  height: 45vh;
+  width: 290px;
   background-color: #ffffff;
-  box-shadow: 0px 5px rgba(149, 168, 145, 0.616);
+  box-shadow: 0px 5px rgba(61, 185, 36, 0.616);
   border-radius: 30px;
 }
 .mod {
-  height: 55vh;
-  width: 100vw;
+  /*
+  height: 55px;
+  width: 900px;*/
   display: inline-flex;
 }
 .line {
@@ -42,6 +44,22 @@ my-app {
 .colorBack {
   background-color: rgb(161, 233, 147);
 }
+.divContentUser {
+  width: 100%;
+  height: 15%;
+  background-color: rgba(202, 142, 63, 0.637);
+}
+.divContentInput {
+  width: 100%;
+  height: 70%;
+  margin-top: 15px;
+  background-color: rgba(59, 196, 150, 0.26);
+}
+.divContentButton {
+  width: 100%;
+  height: 15%;
+  background-color: rgba(89, 121, 190, 0.479);
+}
 
 /*
 
@@ -52,7 +70,7 @@ my-app {
   height: 10%;
   width: 75%;
   border-radius: 10px;
-  font-size: 200%;
+  font-size: ;
   display: block;
 }
 .color {
@@ -112,12 +130,15 @@ my-app {
 
 */
 .imgUser {
-  height: 100%;
+  height: 100px;
+  width: ;
   background-color: #e8e8e800;
   position: relative;
   left: -30px;
 }
 .imgDIV {
+  height: 100px;
+  width: 100px;
   background-color: #ffffff;
   border-radius: 500px;
   margin: 0 auto;
@@ -134,13 +155,13 @@ my-app {
   .imgDIV {
     height: 100px;
     width: 100px;
-    position: relative;
-    top: -14%;
+    position: ;
+    bottom: %;
   }
   .imgUser {
     height: 100%;
-    position: relative;
-    left: -35px;
+    position: ;
+    left: ;
   }
 
   /*    Button    */
@@ -148,7 +169,7 @@ my-app {
     height: 70%;
     width: 75%;
     border-radius: 10px;
-    font-size: 200%;
+    font-size: 6vw;
     display: block;
   }
   .position {
@@ -156,23 +177,60 @@ my-app {
   }
   .can {
     background-color: brown;
-    margin-top: 5px;
+    margin-top: ;
   }
 
   /* DIV Content */
   .divContentUser {
     width: 100%;
     height: 15%;
-    background-color: rgba(250, 235, 215, 0.39);
+    background-color: rgba(202, 142, 63, 0.637);
   }
   .divContentInput {
     width: 100%;
-    height: 75%;
-    background-color: rgba(127, 255, 212, 0.432);
+    height: 70%;
+    margin-top: 15px;
+    background-color: rgba(59, 196, 150, 0.26);
   }
   .divContentButton {
     width: 100%;
     height: 15%;
-    background-color: rgba(89, 190, 174, 0.384);
+    background-color: rgba(89, 121, 190, 0.479);
   }
+
+  /*
+
+  Estilos para DIV
+
+
+  .ltr {
+    background-color: ;
+    width: 20vw;
+    height: 50vh;
+  }
+  .div {
+    height: 20vh;
+    width: 100vw;
+  }
+  .pos {
+    height: 55vh;
+    width: 66vw;
+    background-color: #ffffff;
+    box-shadow: 0px 5px rgba(149, 168, 145, 0.616);
+    border-radius: 30px;
+  }
+  .mod {
+    height: 55vh;
+    width: 100vw;
+    display: inline-flex;
+  }
+  .line {
+    background-color: rgba(149, 168, 145, 0.616);
+    width: 70%;
+    height: 2px;
+    margin: 0 auto;
+  }
+  .colorBack {
+    background-color: rgb(161, 233, 147);
+  }*/
 }
